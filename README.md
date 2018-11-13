@@ -1,5 +1,7 @@
-# jinlicoin 锦鲤币，锦里币
+# Jinlicoin 锦鲤币，锦里币
 a internet based value unit for grass-root! 草根互联网电子现金！
+
+
 
 # 关于锦鲤币
 锦鲤币是一个由草根社区发起的互联网电子现金，草根精神，人人共享！
