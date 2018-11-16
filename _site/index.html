@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>锦鲤币</title>
+  <meta name="description" content="锦鲤币是一个由草根社区发起的互联网电子现金，草根精神，人人共享！
+">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/clean/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/clean/">
+  <link rel="alternate" type="application/rss+xml" title="锦鲤币" href="http://localhost:4000/clean/feed.xml" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+</head>
+
+
+  <body style="background-color: #FFFFFF">
+
+    <div class="cover">
+      <div class="site-name">
+        <div class="site-name__inner">
+          <div class="name">锦鲤币</div>
+          <div class="desc">锦鲤币是一个由草根社区发起的互联网电子现金，草根精神，人人共享！
+
+
+          </div>
+          <div class="btn" ><a href="https://github.com/jinliproject/jinlicoin" target="_blank">GITHUB</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+<script>
+  setInterval(function() {
+    var seconds = new Date().getSeconds();
+    var sdegree = seconds * 6 + 270;
+    seconds = ("0" + seconds).slice(-2);
+    var secondSel = document.querySelector(".seconds");
+
+    secondSel.style.transform = "rotate(" + sdegree + "deg) translate(160px) rotate(-" + sdegree + "deg)";
+    secondSel.innerHTML = seconds;
+
+    var minutes = new Date().getMinutes();
+    var mdegree = minutes * 6 + 270;
+    var minutesSel = document.querySelector(".minutes");
+    minutes = ("0" + minutes).slice(-2);
+
+    minutesSel.style.transform = "rotate(" + mdegree + "deg) translate(181px) rotate(-" + mdegree + "deg)";
+    minutesSel.innerHTML =  minutes;
+
+    var hours = new Date().getHours();
+    var hoursSel = document.querySelector(".hours");
+
+
+    hours = ("0" + hours).slice(-2);
+
+    hoursSel.innerHTML = hours;
+  }, 1000);
+
+  var btnSel = document.querySelector('.btn');
+
+  btnSel.addEventListener("mouseover",function(){
+    this.style.backgroundColor="#EE6A50";
+    this.style.color="#FFFFFF";
+  },);
+
+
+  btnSel.addEventListener("mouseout",function(){
+    this.style.backgroundColor="#FFFFFF";
+    this.style.color="#EE6A50";
+  });
+
+
+</script>
+
+  </body>
+
+</html>
