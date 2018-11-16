@@ -3,7 +3,7 @@ title: 锦鲤币
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   锦鲤币是一个由草根社区发起的互联网电子现金，草根精神，人人共享！
-baseurl: "/clean" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
